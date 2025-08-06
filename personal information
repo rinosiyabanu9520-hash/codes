@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class sample{
+    public static void main(String[]args){
+        Scanner Scan=new Scanner(System.in);
+        System.out.println("enter your name");
+        String a=Scan.nextLine();
+        System.out.println("enter your email id");
+        String b=Scan.nextLine();
+        System.out.println("enter your branch");
+        String c=Scan.nextLine();
+        System.out.println("your name :"+a);
+        System.out.println("your email id :"+b);
+        System.out.println("your branch :"+c);
+
+    }
+}
