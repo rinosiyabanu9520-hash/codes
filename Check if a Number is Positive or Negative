@@ -1,6 +1,6 @@
 public class PositiveOrNegative {
     public static void main(String[] args) {
-        int a = -64
+        int a = -64;
         if (a >= 0) {
             System.out.println("positive");
         } else {
