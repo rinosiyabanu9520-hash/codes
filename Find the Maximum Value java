@@ -1,0 +1,13 @@
+public class MaxValue {
+    public static void main(String[] args) {
+        int a = 20;
+        int b = 30;
+
+        // Check which value is greater
+        if (a > b) {
+            System.out.println("a = " + a);
+        } else {
+            System.out.println("b = " + b);
+        }
+    }
+}
