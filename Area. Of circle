@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class main {
+     public static void main(String[] args)
+        {
+          Scanner scan=new Scanner(System.in);
+           System.out.println("enter r");
+           int r=scan.nextInt();
+           double area=3.14*r*r;
+           System.out.println("enter area of circle:"+area);
+           
+        }
+}
