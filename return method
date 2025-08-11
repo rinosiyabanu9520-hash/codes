@@ -1,0 +1,13 @@
+public class method {
+    public static int m1 (){
+        int b=17;
+        int c=30;
+        return b;
+    }
+    public static void main(String[]args){
+        m1();
+        int a=m1();
+    
+    System.out.println(m1());
+}
+}
