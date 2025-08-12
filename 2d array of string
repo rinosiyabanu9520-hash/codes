@@ -1,0 +1,16 @@
+public class sample4 {
+    public static void main(String[] args) {
+        String[][]a={{"rino","banu","nivi","parisha"},
+                     {"abbas","muhammed","raja","rani"},
+                     {"shylina","sharmily","shalini","kalki"},
+                     {"priya","raf","hayati","habitiw"}};
+                     int count=1;
+        for (int i=0;i<a.length;i++) {
+            for (int j=0;j<a.length;j++) {
+                System.out.println(count+":"+a[i][j]);
+                count++;
+            }
+        }
+    }
+       
+}
