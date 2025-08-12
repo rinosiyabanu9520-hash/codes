@@ -1,0 +1,17 @@
+public class Sample4 {
+    public static void main(String[]arg) {
+        
+        int [][]matrix={{15,6,10},
+                       {10,6,7},
+                       {9,18,30}};
+                   int avg=0;
+        for(int[]row:matrix) {
+            for(int num:row) {
+                if(num%2==avg) {
+                avg=num;
+            }
+        }
+        }
+        System.out.println("average element :"+avg);
+        }
+}
