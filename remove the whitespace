@@ -1,0 +1,16 @@
+class Main {
+    public static void main(String[] args) {
+        String r="ja va" ;
+        String r1="";
+        for(int i=0;i<r.length();i++) {
+        
+        char c=r.charAt(i);
+        if(!Character.isWhitespace(c)) {
+    
+            r1=r1+c;
+        }
+   }
+        
+        System.out.println(r1);
+}
+}
