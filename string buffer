@@ -1,0 +1,30 @@
+class main {
+    public static void main (String[]args) {
+        StringBuffer sb=new StringBuffer("hello");
+        sb.append("world");
+        System.out.println("After append:"+sb);
+        sb.insert(5,"beautiful");
+        System.out.println("After insert:"+sb);
+        sb.replace(7,15,"Amazing");
+        System.out.println("after replay:"+sb);
+        sb.delete(5,13);
+        System.out.println("after delete:"+sb);
+        sb.reverse();
+        System.out.println("after reverse:"+sb);
+        System.out.println("capacity:"+sb.capacity());
+    }
+}
+
+
+
+
+
+
+After append:helloworld
+After insert:hellobeautifulworld
+after replay:hellobeAmazingorld
+after delete:hellogorld
+after reverse:dlrogolleh
+capacity:21
+
+=== Code Execution Successful ===
